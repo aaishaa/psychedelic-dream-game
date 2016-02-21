@@ -13,7 +13,7 @@ class GameWindow < Gosu::Window
     @player = Player.new
     @player.warp(320, 240)
 
-    @star_anim = Gosu::Image::load_tiles("media/Hot_Lips2.png", 84, 57)
+    @star_anim = Gosu::Image::load_tiles("media/Hot_lips.png", 88, 60)
     @stars = Array.new
     @font = Gosu::Font.new(20)
   end
