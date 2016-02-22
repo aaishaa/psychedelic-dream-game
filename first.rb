@@ -26,6 +26,7 @@ class GameWindow < Gosu::Window
   def update
     if @menu.displayed
       
+      
     else
       if Gosu::button_down? Gosu::KbLeft or Gosu::button_down? Gosu::GpLeft then
         @player.turn_left
