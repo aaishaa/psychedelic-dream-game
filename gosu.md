@@ -23,11 +23,15 @@ Touch a new ruby file: **touch file_name.rb**
 
 Install some libraries:
 
-**brew install sdl2**    
+```
+$ brew install sdl2
+```
 
 (Simple Directmedia Layer - offers sound/video/graphics integration)
 
-**gem install gosu**
+```
+$ gem install gosu
+```
 
 ##Time to program
 
@@ -39,8 +43,10 @@ Open your text editor.
 require 'Gosu'
 ```
 
-**Next, make a Game Window. Gosu provides a Window class. Every Gosu App begins with this, your Ruby class will inherit from Gosu.  The 600, 480 parameters give the window a size (additionally fullscreen can be used by setting `fullscreen => true`) The window's title is added by setting the `self.caption` string.  Then the `update` and `draw` methods are used for the game, `update` handling the game logic (moves, etc.) and next `draw` is called to redraw the screen after `update` updates the moves:**
+Next, let's make a Game Window. Gosu provides a Window class. Every Gosu App begins with this, your Ruby class will inherit from Gosu.  The 600, 480 parameters give the window a size (additionally fullscreen can be used by setting `fullscreen => true`) The window's title is added by setting the `self.caption` string.  Then the `update` and `draw` methods are used for the game, `update` handling the game logic (moves, etc.) and next `draw` is called to redraw the screen after `update` updates the moves. 
 
+##General flow of the game:
+![id](/game_loop.png)
 
 
     class GameWindow < Gosu::Window
@@ -56,16 +62,21 @@ require 'Gosu'
     window = GameWindow.new
     window.show
 
-
-![id](/game_loop.png)
 ![id](/setup.png)
+
+After your class has been built, just run the ruby file in bash by calling Ruby and the filename and a new window will open containing your game:
+
+```
+$ ruby filename.rb
+```
+
 
 ##Links:
   
 [Getting Started/Gosu Docs](https://gosu-lang.github.io) |
 [Good Beginner Tutorial](https://github.com/gosu/gosu/wiki/Ruby-Tutorial) |
 [Beginner Tutorial](http://blog.flatironschool.com/look-ma-i-built-a-game/) |
-[GitHub](https://github.com/gosu/gosu)|
-[Flappy Bird Clone](https://github.com/yannvery/GosuFlappy)|
-[Space Invaders Clone](https://github.com/DamirSvrtan/space-invaders.rb)|
+[GitHub](https://github.com/gosu/gosu) |
+[Flappy Bird Clone](https://github.com/yannvery/GosuFlappy) |
+[Space Invaders Clone](https://github.com/DamirSvrtan/space-invaders.rb) |
 
