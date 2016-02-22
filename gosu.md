@@ -60,5 +60,5 @@ require 'Gosu'
 
 ##Links:
   
-*[Getting Started/Gosu Docs](https://gosu-lang.github.io)
-*[Good Beginner Tutorial](https://github.com/gosu/gosu/wiki/Ruby-Tutorial)
++[Getting Started/Gosu Docs](https://gosu-lang.github.io)
++[Good Beginner Tutorial](https://github.com/gosu/gosu/wiki/Ruby-Tutorial)
