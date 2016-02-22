@@ -4,11 +4,12 @@
 #What is Gosu?
 
 
-Gosu is a 2D game development library that offers easy object oriented interfaces for Ruby and C++, available for Mac OS X, Windows and Linux. It's open source (MIT License), and the C++ version is also available for iPad, iPhone and iPod Touch. Provides basic building blocks for games:
+Gosu is a 2D game development library that offers easy object oriented interfaces for Ruby and C++, available for Mac OS X, Windows and Linux. It's open source (MIT License), and the C++ version is also available for iPad, iPhone and iPod Touch. Gosu contains everything needed for basic building blocks of games letting the user forget about the low level code:
 
 
 ### A window with a main loop and callbacks
 ### 2D graphics and text, accelerated by 3D hardware
+### Advanced color operations and mathematical functions
 ### Sound samples and music in various formats
 ### Keyboard, mouse, and gamepad input
 
