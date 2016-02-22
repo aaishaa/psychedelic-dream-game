@@ -23,7 +23,7 @@ Touch a new ruby file: **touch file_name.rb**
 
 Install some libraries:
 
-**brew install sdl2**
+**brew install sdl2**  (Simple Directmedia Layer - offers sound/video/graphics integration)
 
 **gem install gosu**
 
