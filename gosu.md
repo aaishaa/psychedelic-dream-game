@@ -1,4 +1,4 @@
-![id]: /logo-large.png
+![id](/logo-large.png)
 
 
 #What is Gosu?
@@ -54,5 +54,5 @@ require 'Gosu'
     window.show
 
 
-![id]: /game_loop.png
-![id]: /setup.png
+![id](/game_loop.png)
+![id](/setup.png)
