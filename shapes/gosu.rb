@@ -17,9 +17,21 @@ class DemoWindow < Gosu::Window
    size = 100
    squ = 125
    line = 150
-   draw_quad(x-squ, y-squ, 0xffff8888, x+squ, y-squ, 0xffffffff, x-squ, y+squ, 0xffffffff, x+squ, y+squ, 0xffffffff, 0)
-   draw_triangle(x-size, y-size, 0xffffffff, x+size, y-size, 0xff00ff00, x-size, y+size, 0xff00ff00)
-   draw_line(x-line, y-line, 0xff00ffff, x+line, y+line, 0xff00ffff)
+
+   draw_quad(
+    x-squ, y-squ, 0xffff8888,
+    x+squ, y-squ, 0xffffffff,
+    x-squ, y+squ, 0xffffffff,
+    x+squ, y+squ, 0xffffffff, 0)
+
+   draw_triangle(
+    x-size, y-size, 0xffffffff,
+    x+size, y-size, 0xff00ff00,
+    x-size, y+size, 0xff00ff00)
+
+   draw_line(
+    x-line, y-line, 0xff00ffff,
+    x+line, y+line, 0xff00ffff)
  end
 end
 
