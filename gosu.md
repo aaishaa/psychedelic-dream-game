@@ -23,7 +23,9 @@ Touch a new ruby file: **touch file_name.rb**
 
 Install some libraries:
 
-**brew install sdl2**    (Simple Directmedia Layer - offers sound/video/graphics integration)
+**brew install sdl2**    
+
+(Simple Directmedia Layer - offers sound/video/graphics integration)
 
 **gem install gosu**
 
@@ -60,5 +62,10 @@ require 'Gosu'
 
 ##Links:
   
-+[Getting Started/Gosu Docs](https://gosu-lang.github.io)
-+[Good Beginner Tutorial](https://github.com/gosu/gosu/wiki/Ruby-Tutorial)
+[Getting Started/Gosu Docs](https://gosu-lang.github.io) |
+[Good Beginner Tutorial](https://github.com/gosu/gosu/wiki/Ruby-Tutorial) |
+[Beginner Tutorial](http://blog.flatironschool.com/look-ma-i-built-a-game/) |
+[GitHub](https://github.com/gosu/gosu)|
+[Flappy Bird Clone](https://github.com/yannvery/GosuFlappy)|
+[Space Invaders Clone](https://github.com/DamirSvrtan/space-invaders.rb)|
+
